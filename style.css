@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+html, body { height: 100%; margin: 0;}
+#container {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+#map {
+	-webkit-flex: 1;
+	flex: 1;
+	height: 93%;
+	float: right;
+	border-radius: 15px;
+	margin: 10px 3px 10px 10px;
+	padding:10px;
+	border-color:#bfbfbf;
+	border-style:double;
+	border-width:5px;
+}
+.mapOveray {
+	position: absolute;
+	background: #fff;
+	border: 1px solid #888;
+	border-radius: 3px;
+	font-size: 12px;
+	top: -85px;
+	left: 15px;
+	padding:2px;
+}
+.mapOveray li {color: gray;}
+.mapOveray li.current {color: black;}
+
+#sidebar {
+	padding:10px;
+	height:93%;width:200px;float:left;margin:10px 10px 10px 3px;
+	border-radius:15px;
+	border-width:5px;
+	border-style:double;
+	border-color:#bfbfbf;
+	font-family:'jeju gothic';
+}
+
+#areaList li {display: inline;}
+
+#area { background: url('wall.jpg') repeat center center #fafafa; }
+#area h1 { text-align: center; }
+#area #descript { text-align: center; }
+#areaForm { width: 900px; margin: auto;}
+#area ol, #area li { list-style: none; }
+
+#index, #marketAddForm, #building {background: url('wall.jpg') repeat-x center center #fafafa; background-attachment: fixed; width: 100%; height: 100%;}
+#marketAddForm form { width: 700px; height: 250px; margin: 0 auto; }

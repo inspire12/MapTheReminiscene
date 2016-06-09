@@ -1,0 +1,13 @@
+#map {width: 1000px; height: 500px; float: center;}
+.mapOveray {
+	position: absolute;
+	background: #fff;
+	border: 1px solid #888;
+	border-radius: 3px;
+	font-size: 12px;
+	top: -85px;
+	left: 15px;
+	padding:2px;
+}
+.mapOveray li {color: gray;}
+.mapOveray li.current {color: black;}
